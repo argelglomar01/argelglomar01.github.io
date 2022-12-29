@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  
+nav .navbar {
+    justify-content: space-around;
+    padding: 15px;
+  }
+  
+  nav .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  nav .nav-link {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  nav .navbar-collapse {
+    flex-grow: 0;
+  }
+
+
+  header {
+    height: 100vh;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+  main, footer{
+    background-color: #051822;
+  }
+
+
+#home {
+    height: 87vh;
+  }
+
+  #home h2, span {
+    color: #2b8494;
+  }
+
+  #home h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+  }
+
+  #home h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  #home p{
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  #home a {
+    text-decoration: none;
+    color: #000;
+    background: #28FF7E;
+    border-radius: 50px;
+    width: 200PX;
+    text-align: center;
+    margin-left: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+
+  section, footer{
+    height: 100vh;
+    padding: 50px 0px;
+  }
+  
+  span {
+    color: #2b8494;
+  }
+  h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+
+  #about .col-md-6 img{
+    max-height: 300px;
+  }
+
+  #about .col-md-6 p, h3{
+    color: #fff;
+  }
+
+  #about .col-md-6 p{
+    font-size: 1.5rem;
+  }
+
+  #resume p{
+    margin-bottom: 3px;
+  }
+
+  #resume .school{
+    font-weight: bolder;
+  }
+
+  #portfolio .col-md-4 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #051822;
+    font-size: 1.5rem;
+  }
+
+  #contact .col-md-6 p, h3{
+    color: #fff;
+  }
+
+  #contact .col-md-6 p{
+    font-size: 1.5rem;
+  }
+
+  .col-md-4{
+    display: flex;
+    justify-content: center; 
+  }
+
+  @media only screen and (max-width: 777px) {
+    /* h1, h2, h3, h4, h5, p{
+      text-align: center;
+    } */
+
+    #home, #about, #resume, #portfolio, #contact{
+        height: 100%;
+        padding: 10px; 
+    }
+
+    .col-md-4{ 
+      margin-bottom: 15px;
+    }
+
+   
+  }
